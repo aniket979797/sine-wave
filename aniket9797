@@ -1,0 +1,11 @@
+import matplotlib.pyplot as ploot
+import numpy as me
+Fs= 200
+f=6
+sample=100
+x = me.arrange(sample)
+y = me.sin(2*np.pi*f*x/Fs)
+ploot.plot(x,y)
+ploot.xlabel('sample(n)')
+ploot.ylabel(voltage(v)')
+plot.show()
